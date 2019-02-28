@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+  <title>About</title>
+  <link rel="stylesheet" type="text/css" href="about1.css">
+  <link rel="stylesheet" href="form.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="topnav">
+  <div class="navbar">
+    <a class="active" href="index.html">Home<i class="fa fa-fw fa-home"></i></a>
+    <a href="sell.html">Sell<i class="fa fa-fw fa-money"></i></a>
+    <a href="buy.html">Buy<i class="fa fa-fw fa-money"></i></a>
+    <a href="login.html">Login<i class="fa fa-fw fa-user"></i></a>
+    <a href="registrieren.html">Registration<i class="fa fa-fw fa-user"></i></a>
+  </div>
+  </div>
+  <script>
+  window.onscroll = function() {myFunction()};
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+  }
+</script>
+  <div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
+</head>
+<body>
+  <br><br><br><br>
+  <div class="container">
+  <img src="guest icon.ico" alt="Guest">
+  <p>How can i sell stuff?</p>
+  <span class="time-right">11:00</span>
+</div>
+<div class="container darker">
+  <img src="admin icon.ico" alt="Admin" class="right">
+  <p>Hey! Thanks for asking! Just click on Sell and you can sell your item!</p>
+  <span class="time-left">11:15</span>
+</div>
+<div class="container">
+  <img src="guest icon.ico" alt="Guest">
+  <p>How can i buy?</p>
+  <span class="time-right">16:20</span>
+</div>
+<div class="container darker">
+  <img src="admin icon.ico" alt="Admin" class="right">
+  <p>Just Click on Buy! Select your Item and buy it on the carboard!</p>
+  <span class="time-left">16:25</span>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="admin icon.ico" alt="Jan" style="width:100%">
+      <div class="container">
+        <h2>Jan Decher</h2>
+        <p class="title">Developer &amp; Founder</p>
+        <p>independent learning Developer</p>
+        <p>JanDecher@gmx.de</p>
+        <a href="https://www.facebook.com/jan.decher.04" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/eisen0xid" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/jxn.cs/" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.youtube.com/channel/UCbH4fjHFo7LlG1OVFeS5D_w" target="_blank" class="fa fa-youtube"></a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="column2">
+    <div class="card">
+      <img src="admin icon.ico" alt="Jannes" style="width:100%">
+      <div class="container">
+        <h2>Jannes Kern</h2>
+        <p class="title">Developer &amp; Founder</p>
+        <p>independent learning Developer</p>
+        <p>Jannes.Kern@schule-homberg.de</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<a href="time line.html">Info About this Site<i class="fa fa-fw fa-info"></i></a>
+<h1>Our Skills</h1>
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">50%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">30%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">30%</div>
+</div>
+
+<p>C#</p>
+<div class="container">
+  <div class="skills php">65%</div>
+</div>
+<div class="container1">
+  <form netlify="true" action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="germany">Germany</option>
+      <option value="france">France</option>
+      <option value="usa">USA</option>
+    </select>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
